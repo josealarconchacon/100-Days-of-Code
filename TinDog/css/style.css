@@ -6,7 +6,7 @@ body {
     color:#fff;
 }
 .containers-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 h1 {
     font-family: 'Montserrat-Black';
@@ -58,11 +58,17 @@ em {
  .title-image {
      width: 60%;
      transform: rotate(25deg);
+     /* put the image  behind the features */
+     position: absolute;
+     right: 30%;
  }
 
  /* features section */
  #features {
      padding: 7% 15%;
+     background-color: #fff;
+     /* put the features on top of the title image */
+     position: relative;
  }
  .features-box {
      text-align: center;
