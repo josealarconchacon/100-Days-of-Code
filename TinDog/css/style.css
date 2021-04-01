@@ -114,11 +114,23 @@ em {
    padding: 100px; 
    text-align: center;
 }
-
 .pricing-column {
     padding: 3% 2%;
-
 }
+/* Pricing section end*/
+
+/* CTA SEction */
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+}
+.cta-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+/* CTA SEction end*/
 
 @media (max-width: 1028px) {
     #title {
