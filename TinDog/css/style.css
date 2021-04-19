@@ -27,6 +27,16 @@ p {
 }
 /* Heading  end*/
 
+
+/* Sections  */
+.colored-section {
+    background-color: #ff4c68;
+    color:#fff;
+}
+.white-section {
+    background-color: #fff;
+}
+/* Sections end */
 /* Navegation Bar */
 .navbar {
     padding: 0 0 4.5rem;
@@ -61,8 +71,6 @@ p {
 
  /* Titis Section */
  #title {
-    background-color: #ff4c68;
-    color:#fff;
     text-align: left;
 }
 #title .containers-fluid {
@@ -93,7 +101,6 @@ p {
  /* testimonials section */
  #testimonials {
     background-color: #ef8172;
-    color: #fff;
  }
 
  .testimonial-text {
@@ -133,10 +140,6 @@ p {
 /* Pricing section end*/
 
 /* CTA SEction */
-#cta {
-    background-color: #ff4c68;
-    color: #fff;
-}
 
 /* Footer Section  */
 .social-icon {
