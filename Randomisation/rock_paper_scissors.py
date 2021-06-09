@@ -43,19 +43,3 @@ print(choices[user_input])
 print("Computer chose:")
 print(choices[select])
 
-
-# for n in range(2):
-#     if n >= 0 and n <= 2:
-#         computer = random.randint(0,2)
-#         print(f"You selected {choices[user_input]} {choices[user_input]}")
-#         print(f"Computer selected {choices[computer][0]} {choices[computer][1]}")
-
-#         if n == computer:
-#              print("Tie")
-#         elif computer - n == 1 or n - computer == 2:
-#             print("Computer Wins...")
-#         else:
-#             print("You won!!!")
-#     else:
-#         break
-
