@@ -32,6 +32,7 @@ select = random.randint(0,2)
 
 if (user_input != 1 or user_input != 2 or user_input != 3) and (user_input < 1 or user_input > 3):
     print("Invalid input")
+    exit()
 elif (user_input == 1 and select == 3) or (user_input == 3 and select == 2) or (user_input == 2 and select == 1):
     print("You won the game")
 elif user_input == select:
