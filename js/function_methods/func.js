@@ -1,3 +1,4 @@
+// function declaration
 function hello() {
         console.log('Hello');
 }
@@ -9,3 +10,13 @@ const speak = function() {
 // invoke the func
 hello();
 speak();
+
+// -------------------------------------------
+
+// callback function
+let city = ["NY","LA","SF","MA","OK"];
+
+const cities = (city, index) => {
+    console.log(`${index} - Welcom ${city}`);
+};
+city.forEach(cities);
