@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+}
+li {
+    list-style-type: none;
+    max-width: 299px;
+    padding: 12px;
+    margin: 12px auto;
+    background: rgb(230, 160, 160);
+    border: 1px dotted #ddd;
+}
