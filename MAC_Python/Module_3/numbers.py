@@ -18,3 +18,13 @@ print(type(z)) #Complex
 
 # Random Numbers
 print(random.randint(1,20))
+
+# Conversion
+num = 6.7 # double to int
+print(int(num)) # 6
+
+num1 = 5 # int to complex 
+print(complex(num1)) (5+0j)
+
+
+
