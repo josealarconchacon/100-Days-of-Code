@@ -1,6 +1,6 @@
 // get reference for the form
 const form = document.querySelector('.signup-form');
-const username = document.querySelector('#username');
+// const username = document.querySelector('#username');
 
 
 form.addEventListener('submit', e => {
@@ -9,3 +9,10 @@ form.addEventListener('submit', e => {
     console.log(username.value);
 });
 
+// test RegEx
+const username = "shaunp";
+// check for lowerCase letter and for 6 to 10 characters long
+const patten = /[a-z]{6,10}/;
+// test patten
+let result = patten.test(username);
+console.log(result);
