@@ -1,0 +1,15 @@
+body {
+    background: rgb(224, 216, 202);
+}
+
+form {
+    max-width:300px;
+    margin: 40px auto;
+    background: whitesmoke;
+    padding: 10px;
+}
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 4px;
+}
