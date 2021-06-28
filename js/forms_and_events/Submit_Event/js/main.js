@@ -12,7 +12,11 @@ form.addEventListener('submit', e => {
 // test RegEx
 const username = "shaunp";
 // check for lowerCase letter and for 6 to 10 characters long
-const patten = /[a-z]{6,10}/;
+const patten = /[a-z]{6,10}$/;
 // test patten
 let result = patten.test(username);
-console.log(result);
+if(result) {
+    console.log('test RegEx has passed.');
+} else {
+    console.log('Error: RegEx has faild.');
+}
