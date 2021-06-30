@@ -9,3 +9,15 @@ print(list)
 thisList = ['apple','banana','cherry']
 myList = thisList.copy() # myList now will contain all elements of thisList
 # print(myList)
+
+# Loop Through a List
+for i in thisList: 
+    print(i)
+
+# Loop Through the Index Numbers
+frutis = ['Blueberries','Cherries','Dewberry','Fig','Cantaloupe','Rambutan','Quince','Raspberry']
+for item in range(len(frutis)):
+    print(frutis[item])
+
+# Using List Comprehension
+[print(i) for i in frutis]
