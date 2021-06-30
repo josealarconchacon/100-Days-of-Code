@@ -21,3 +21,6 @@ for item in range(len(frutis)):
 
 # Using List Comprehension
 [print(i) for i in frutis]
+
+
+
