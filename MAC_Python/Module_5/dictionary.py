@@ -19,6 +19,7 @@ dict["color"] = "black"
 print(get_key) # ['brand', 'model', 'year', 'color']
 
 
+
 # Get Values
 get_value = dict.values()
 print(get_value) # ['Lucid', 'Air', 2022, 'black']
@@ -42,7 +43,7 @@ for i in dict.values():
 # keys() method to return the keys of a dictionary:
 for i in dict.keys():
     print(i)
-    
+
 
 # Copy a Dictionary
 myDict = dict.copy()
