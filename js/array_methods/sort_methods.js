@@ -8,7 +8,7 @@ console.log(cities);
 // sorting numbers
 const scores = [10,34,54,24,43,70];
 // scores.sort();
-scores.sort((a,b) => b - a)
+// scores.sort((a,b) => b - a)
 console.log(scores);
 
 
