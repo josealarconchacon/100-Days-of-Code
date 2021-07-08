@@ -10,3 +10,7 @@ console.log('getDay:', now.getDay());
 console.log('getHours:', now.getHours());
 console.log('getMinutes:', now.getMinutes());
 console.log('getSeconds:', now.getSeconds());
+
+
+// timestamps
+console.log('timestamps', now.getTime());
