@@ -13,4 +13,4 @@ console.log('getSeconds:', now.getSeconds());
 
 
 // timestamps
-console.log('timestamps', now.getTime());
+console.log('timestamps:', now.getTime());
