@@ -13,4 +13,6 @@ for i in range(10 + 1):
         print(f'{i} is divisible by 2')
 
 
+for j in range(2, 30, 3):
+    print(j)
 
