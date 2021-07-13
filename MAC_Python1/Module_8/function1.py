@@ -24,10 +24,10 @@ def areaOfRect(w, h):
 width = float(input('Please Enter the Width: '))
 height = float(input('Please Enter the Height: '))
 
-# areaOfRect(width, height)
+areaOfRect(width, height)
 
 
 # calculate the area of a circle
 def area(r, PI = 3.14):
     return PI * r * r
-print(area(6));
+print(area(5));
